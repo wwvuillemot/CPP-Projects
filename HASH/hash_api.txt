@@ -1,0 +1,324 @@
+/****************************************************************************
+NAME
+	HASH API
+DESCRIPTION
+	Provides details on the public API for HASH module.
+AUTHOR
+	Ward W. Vuillemot <wwv@mac.com>
+CURATOR
+	Ward W. Vuillemot <wwv@mac.com>
+REVISION
+	1
+DATE CREATED
+	15 August 2005
+DATE MODIFIED
+	21 August 2005
+HISTORY
+	1
+	21 August 2005
+	Ward W. Vuillemot <wwv@mac.com>
+	- signifant changes to implementation within hash.c; moved from PRQ to
+	  rolling own data object based on ENQ
+	- see hash.h, hashp.h, and hash.c for details
+	
+	0
+	15 August 2005
+	Ward W. Vuillemot <wwv@mac.com>
+	- original
+****************************************************************************/
+
+/****************************************************************************
+Table Of Contents
+
+	SUMMARY
+	HASH FUNCTION
+	KEY COLLISIONS
+	PUBLIC API
+		TYPE DEFINITIONS
+		PROTOTYPES
+	ERRATA
+		ENQ vs BINARY MODULE
+		
+****************************************************************************/
+
+/****************************************************************************
+SUMMARY
+****************************************************************************/
+
+The HASH module provides hash table functionality per the below public API.
+The API itself uses both the CDA and ENQ modules to deliver functionality.
+
+/****************************************************************************
+HASH FUNCTION
+****************************************************************************/
+
+The hash function used in this module makes use of the modulus (%) operator. 
+The user can pass a 'hint' at the time of creating the hash table.  We will
+ensure that the table is at least as large as the hint; however, internal 
+implementation is free to calculate its own optimal number of keys.  The use
+of a prime number is useful to reduce the number of collisions though it is
+not absolutely necessary. 
+
+At present, for the sake of coding expediency and simplicity a simple array 
+of pointers to ENQ lists is employed.  However, a better implementation would 
+be use of an array of pointers to binary trees.  This would make searching 
+for a key significantly faster and additionally reduce the impact to a poorly 
+choosen hash table size.  
+
+To point, our present implementation is prone to poor performance when too
+many collisions occur with keys.  (Thus the reason for use of a prime number
+that reduces the probability for collision.)  In particular, we must search 
+O(N) through our non-contiguous list (ENQ module) to find a match to a key.  
+There is no upper bound on N if we choose a poor hash table size.
+
+Also, it is possible create a new hash table and pass a function pointer to
+your own hash function.  See HASH_PROC_t type defintion in HASH.h for details 
+on the subroutine prototype.
+
+/****************************************************************************
+KEY COLLISIONS
+****************************************************************************/
+
+Key collisions of the first order (index keys) are handled  naturally with the 
+ENQ module (See ERRATA for details).  However, collisions of the second order 
+(keys tehmselves) are not supported.  If an identical key is found within the 
+hash table then a status (See PUBLIC API/HASH_add_item() for details) is 
+returned to notify the user that they key already exists.  They (user) will 
+need to  explicitly remove the key from the table before re-inserting.
+
+/****************************************************************************
+PUBLIC API
+****************************************************************************/
+
+/****************************************************************************
+* TYPEDEFS
+****************************************************************************/
+/****************************************************************************
+* Name:
+*		HASH_STATUS_t
+* Notes: 
+*		Type definition used as return value for subroutines
+*			- HASH_find_item()
+*			- HASH_add_item()
+*			- HASH_delete_item()
+****************************************************************************/
+
+/****************************************************************************
+* Name:
+*		HASH_ID_t
+* Notes: 
+*		Type definition to encapsulated hash table structure
+****************************************************************************/
+
+/****************************************************************************
+* Name:
+*		HASH_KEY_t
+* Notes: 
+*		- Convenience type definition of an item's key for a hash table
+*		- changing will have non-deterministic effect on module
+****************************************************************************/
+
+/****************************************************************************
+* Name:
+*		HASH_INDEX_t
+* Notes: 
+*		Convenience type definition used as return value for hash_proc
+****************************************************************************/
+
+/****************************************************************************
+* Name:
+*		HASH_NUMBER_KEYS_t
+* Notes: 
+*		Type definition for defining the minimum number of keys 
+*		created by hash table
+****************************************************************************/
+
+/****************************************************************************
+* Name:
+*		HASH_GENERATE_PROC_t
+* Notes:
+*		Type definition of hash table generate index proc
+* Synopsis: 
+*		HASH_INDEX_t hash_proc(const HASH_KEY_t, const HASH_NUMBER_KEYS_t);
+* Description:
+*		Given HASH_KEY_t generate an index of type HASH_INDEX_t
+* Exceptions: 
+*		Throws SIGABRT if unable to create index from key 
+****************************************************************************/
+
+/****************************************************************************
+* Name:
+*		HASH_GENERATE_PROC_p_t
+* Notes: 
+*		Type definition of pointer to hash table proc
+****************************************************************************/
+
+/****************************************************************************
+* Name:
+*		HASH_DESTROY_PROC_t
+* Notes:
+*		Type definition of destroy proc
+* Synopsis: 
+*		void destroy_proc(void *);
+* Description:
+*		Used by HASH module to free dynamically created data;
+* Exceptions: 
+*		Throws SIGABRT if unable to free data 
+****************************************************************************/
+
+/****************************************************************************
+* Name:
+*		HASH_DESTROY_PROC_p_t
+* Notes: 
+*		Type definition of pointer to hash data destroy proc
+****************************************************************************/
+
+/****************************************************************************
+* PROTOTYPES
+****************************************************************************/
+/****************************************************************************
+* Synopsis: 
+*		TABLE_ID_t HASH_create_table(
+*			HASH_NUMBER_KEYS_t number_keys,
+*			HASH_GENERATE_PROC_p_t hash_proc
+* 		); 
+* Where: 
+*		HASH_NUMBER_KEYS_t	== hint for number of keys to generate, internal
+*							   implementation free to use whatever number it
+*							   feels is optimal
+*		HASH_GENERATE_PROC_p_t => pointer to function that generates hash given
+*						          HASH_KEY_t
+* Returns 
+*		HASH_ID_t 
+* Exceptions: 
+*		None 
+* Notes:
+*		- number_keys may be 0.  If 0 then defaults to module default value
+*		  if not 0 then implementation determines optimal number of keys given hint
+*		- hash_proc may be NULL.  If NULL then private hash_proc will be 
+*		  used
+***************************************************************************/
+
+/****************************************************************************
+* Synopsis: 
+*		HASH_ID_t HASH_empty_table(
+*								   HASH_ID_t hash,
+*								   HASH_DESTROY_PROC_p_t destroy_proc							
+*								   );
+* Where: 
+*		hash == hash table object created with HASH_create_table()
+*		destroy_proc => pointer to function that frees user's data
+* Returns 
+*		HASH_ID_t
+* Exceptions: 
+*		None 
+* Notes:
+*		- destroy_proc may be NULL.  
+***************************************************************************/
+
+/****************************************************************************
+* Synopsis: 
+*		TABLE_ID_t HASH_destroy_table(
+*			TABLE_ID_t hash,
+*			HASH_DESTROY_PROC_p_t destroy_proc
+*		); 
+* Where: 
+*		hash == hash table object created with HASH_create_table()
+*		HASH_DESTROY_PROC_p_t => pointer to function that frees user's data
+* Returns 
+*		returns HASH_NULL_ID if successful
+* Exceptions: 
+*		None 
+* Notes:
+*		- destroy_proc may be NULL.  
+***************************************************************************/
+
+/****************************************************************************
+* Synopsis: 
+*		STATUS_t HASH_add_item(
+*			TABLE_ID_t hash,
+*			HASH_KEY_t key,
+*			void *data
+*		); 
+* Where: 
+*		hash == hash table object created with HASH_create_table()
+*		key => pass key of type, HASH_KEY_t (pointer to string)
+*		data => pointer to data to be stored at key's location
+* Returns 
+*		HASH_STATUS_t
+*			If added successfully					== HASH_STATUS_ITEM_ADDED
+*			If not added successfully				== HASH_STATUS_ITEM_NOTADDED
+*			If not added because key already exists == HASH_STATUS_KEY_FOUND
+* Exceptions: 
+*		None 
+* Notes:
+*		- data may be NULL
+***************************************************************************/
+
+/****************************************************************************
+* Synopsis: 
+*		HASH_STATUS_t HASH_delete_item(
+*			TABLE_ID_t table,
+*			HASH_KEY_t key,
+*			void *data,
+*			HASH_DESTROY_PROC_p_t destroy_proc	 
+*		); 
+* Where: 
+*		table == hash table object created with HASH_create_table()
+*		key => pointer to key string
+*		data => pointer to data if HASH_STATUS_t == HASH_STATUS_ITEM_DELETED
+*		destroy_proc => pointer to destroy proc for data
+* Returns 
+*		HASH_STATUS_t
+*			If deleted successfully					== HASH_STATUS_ITEM_DELETED
+*			If not deleted							== HASH_STATUS_ITEM_NOTDELETED
+* Exceptions: 
+*		None 
+* Notes:
+*		- destroy_proc may be NULL
+*		  if destroy_proc == NULL then we return item data via dummy argument
+*		  else data = NULL
+***************************************************************************/
+
+/****************************************************************************
+* Synopsis: 
+*		HASH_STATUS_t HASH_find_item(
+*			TABLE_ID_t table,
+*			HASH_KEY_t key,
+*			void **data
+*		); 
+* Where: 
+*		table == hash table object created with HASH_create_table()
+*		key => pointer to key string
+*		data => pointer to pointer of data associated with key
+* Returns 
+*		HASH_STATUS_t
+*			If found successfully					== HASH_STATUS_KEY_FOUND
+*			If not found successfully				== HASH_STATUS_KEY_NOTFOUND
+* Exceptions: 
+*		None 
+***************************************************************************/
+
+/****************************************************************************
+ERRATA
+****************************************************************************/
+
+/****************************************************************************
+	ENQ vs BINARY MODULE
+****************************************************************************/
+
+HASH module using ENQ to help handle collisions by employing an array of pointers
+to ENQ lists.  However, a better solution would be to use the BINARY module. 
+However, at this time, since we have ENQ coded and tested we choose to employ
+this module.  Creation of the BINARY module would help alleviate the issue of
+finding keys with collisions more quickly then the naive and brute force technique
+presently employed.
+
+As an extreme example that illustrates the potential danger of using ENQ over 
+BINARY is if the number of keys for a hash table is 1.  In this extreme case the
+hash table itself reduces to a doubly-linked list.  That is to say that every key
+will collide with every other key.  At this point our hash table is no better then
+a list itself when we go to retrieve data associated with a key.  Instead of O(1) we
+have returned to O(n).  However, if we use a binary tree then even if we have a hash
+table of 1 then at least our worst-case scenario is bounded by the worst-case of
+a binary tree, or 1.38 log2 N.  

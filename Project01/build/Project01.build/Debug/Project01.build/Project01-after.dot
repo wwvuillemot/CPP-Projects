@@ -1,0 +1,45 @@
+digraph Project01 {
+   size = "10.000000,8.500000";
+   concentrate = false;
+
+   node [ shape = box, style = filled, color = "0.3 0.5 0.6", fillcolor = "0.3 0.2 0.9", fontname = "Monaco", fontsize = "9" ];
+   n00001 [ label = "Debug/Project01\n3c547d37aadc5826a5b3fbdef66a3835\nUpToDate", peripheries = 3 ];
+   n00002 [ label = "ppc/main.o\nc5b15ec55f1c7f8994d5df73721bb8be\nUpToDate" ];
+   n00003 [ label = "Project01/main.c\n0000000042c7078e0000000000002246\nUpToDate" ];
+   n00004 [ label = "ppc/main.ob\nc95ee7a6e7c714b9932538d9c3ce1257\nUpToDate", peripheries = 3 ];
+   n00005 [ label = "Resources/libZeroLinkAppStub.a\n0000000042a5232c0000000000000ae0\nUpToDate" ];
+   n00006 [ label = "ppc/libCDA.ab\nd102b5ae546f7e31ef56c15db7e8370b\nUpToDate", peripheries = 3 ];
+   n00007 [ label = "Debug/libCDA.a\n0000000042c709ea0000000000000b30\nUpToDate" ];
+   n00008 [ label = "ppc/libTESTRIG.ab\ne7790b88058cca89eb324f553c18e5ce\nUpToDate", peripheries = 3 ];
+   n00009 [ label = "Debug/libTESTRIG.a\n0000000042c70a5f00000000000014e8\nUpToDate" ];
+   n00010 [ label = "ppc/Project01.zerolink\n0000000042c70d5f0000000000000180\nUpToDate" ];
+   n00011 [ label = "<postprocessing_dependency_collector>\nffffffffffffffffffffffffffffffff\nUnknown", color = "0.0 0.0 0.5", fillcolor = "0.0 0.0 0.9", style = "filled,dashed" ];
+   n00012 [ label = "<postprocessing_permissions_dependency_collector>\nffffffffffffffffffffffffffffffff\nUnknown", color = "0.0 0.0 0.5", fillcolor = "0.0 0.0 0.9", style = "filled,dashed" ];
+   n00013 [ label = "include/limits.h\n0000000042a523450000000000000d8e\nUpToDate" ];
+   n00014 [ label = "CDA/cda.h\n0000000042c709660000000000000ae9\nUpToDate" ];
+   n00015 [ label = "TESTRIG/testrig.h\n0000000042c70a230000000000000901\nUpToDate" ];
+   n00016 [ label = "include/syslimits.h\n0000000042a52345000000000000014a\nUpToDate" ];
+
+   node [ shape = box, style = "filled,bold", color = "0.7 0.5 0.7", fillcolor = "0.7 0.2 1.0", fontname = "Monaco", fontsize = "9" ];
+   c00001 [ label = "CompileC main.o <wt:2>\nwaitCount: 0\n0000000042c704cb0000000000002d6a\n^ c5b15ec51ddb7b4294d5df73721b95d4\n= c5b15ec55f1c7f8994d5df73721bb8be\nDoesNotNeedToRun\n(no 'why' info)" ];
+   c00002 [ label = "Bundlizing main.ob <wt:2>\nwaitCount: 0\nc5b15ec55f1c7f8994d5df73721bb8be\n^ 0cefb963b8db6b3007f0e7aab1d5aae9\n= c95ee7a6e7c714b9932538d9c3ce1257\nDoesNotNeedToRun\n(no 'why' info)" ];
+   c00003 [ label = "Building ZeroLink <wt:2>\nwaitCount: 0\nc5b15ec55f7e51fa94d5df73721bb3de\n^ f9e523f2f5a209dc316624ad84718beb\n= 3c547d37aadc5826a5b3fbdef66a3835\nDoesNotNeedToRun\n(no 'why' info)" ];
+   c00004 [ label = "Bundlizing libCDA.ab <wt:2>\nwaitCount: 0\n0000000042c709ea0000000000000b30\n^ d102b5ae16a877dbef56c15db7e83c3b\n= d102b5ae546f7e31ef56c15db7e8370b\nDoesNotNeedToRun\n(no 'why' info)" ];
+   c00005 [ label = "Bundlizing libTESTRIG.ab <wt:2>\nwaitCount: 0\n0000000042c70a5f00000000000014e8\n^ e7790b88474bc0d6eb324f553c18f126\n= e7790b88058cca89eb324f553c18e5ce\nDoesNotNeedToRun\n(no 'why' info)" ];
+
+   edge [ style = solid, color = black, arrowhead = none, arrowtail = normal ];
+   n00001 -> { c00003 };
+   n00002 -> { c00001 };
+   n00004 -> { c00002 };
+   n00006 -> { c00004 };
+   n00008 -> { c00005 };
+   c00001 -> { n00003 };
+   c00002 -> { n00002 };
+   c00003 -> { n00002 n00005 n00010 };
+   c00004 -> { n00007 };
+   c00005 -> { n00009 };
+
+   edge [ style = solid, color = gray60, arrowhead = none, arrowtail = normal ];
+   n00003 -> { n00013 n00014 n00015 };
+   n00013 -> { n00016 };
+}

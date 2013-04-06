@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8011582B1710C32900F5905D /* libCDA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 801158291710C32900F5905D /* libCDA.a */; };
+		8011582C1710C32A00F5905D /* libENQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8011582A1710C32900F5905D /* libENQ.a */; };
+		8035B9C308B9127B00574D0A /* enq.h in Headers */ = {isa = PBXBuildFile; fileRef = 8035B9C208B9127B00574D0A /* enq.h */; };
+		80CADCE608AC402000FFC6FE /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CADCE408AC402000FFC6FE /* hash.h */; };
+		80CADCE708AC402000FFC6FE /* hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 80CADCE508AC402000FFC6FE /* hash.c */; };
+		80CADCE908AC403000FFC6FE /* hashp.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CADCE808AC403000FFC6FE /* hashp.h */; };
+		80CADD2308AC415B00FFC6FE /* cda.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CADD2108AC415B00FFC6FE /* cda.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		801158291710C32900F5905D /* libCDA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCDA.a; path = "../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug/libCDA.a"; sourceTree = "<group>"; };
+		8011582A1710C32900F5905D /* libENQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libENQ.a; path = "../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug/libENQ.a"; sourceTree = "<group>"; };
+		8035B9C208B9127B00574D0A /* enq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enq.h; sourceTree = "<group>"; };
+		80CADCE408AC402000FFC6FE /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		80CADCE508AC402000FFC6FE /* hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hash.c; sourceTree = "<group>"; };
+		80CADCE808AC403000FFC6FE /* hashp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashp.h; sourceTree = "<group>"; };
+		80CADD2108AC415B00FFC6FE /* cda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cda.h; path = ../CDA/cda.h; sourceTree = SOURCE_ROOT; };
+		80CADE6208B19EF900FFC6FE /* hash_api.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hash_api.txt; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* libHASH.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHASH.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8011582B1710C32900F5905D /* libCDA.a in Frameworks */,
+				8011582C1710C32A00F5905D /* libENQ.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* HASH */ = {
+			isa = PBXGroup;
+			children = (
+				801158291710C32900F5905D /* libCDA.a */,
+				8011582A1710C32900F5905D /* libENQ.a */,
+				80CADD2108AC415B00FFC6FE /* cda.h */,
+				8035B9C208B9127B00574D0A /* enq.h */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = HASH;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				80CADCE408AC402000FFC6FE /* hash.h */,
+				80CADCE508AC402000FFC6FE /* hash.c */,
+				80CADCE808AC403000FFC6FE /* hashp.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libHASH.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				80CADE6208B19EF900FFC6FE /* hash_api.txt */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CADCE608AC402000FFC6FE /* hash.h in Headers */,
+				80CADCE908AC403000FFC6FE /* hashp.h in Headers */,
+				80CADD2308AC415B00FFC6FE /* cda.h in Headers */,
+				8035B9C308B9127B00574D0A /* enq.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* HASH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CADCD908AC3FC700FFC6FE /* Build configuration list for PBXNativeTarget "HASH" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HASH;
+			productName = HASH;
+			productReference = D2AAC046055464E500DB518D /* libHASH.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 80CADCDD08AC3FC700FFC6FE /* Build configuration list for PBXProject "HASH" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* HASH */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* HASH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CADCE708AC402000FFC6FE /* hash.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		80CADCDA08AC3FC700FFC6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../CDA/build/Debug",
+					"$(SRCROOT)/../ENQ/build/Debug",
+					"$(SRCROOT)/../SRT/build/Debug",
+					"$(SRCROOT)/../STK/build/Debug",
+					"$(SRCROOT)/../PRQ/build/Debug",
+					"$(SRCROOT)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug\"",
+				);
+				LIBRARY_STYLE = STATIC;
+				PRODUCT_NAME = HASH;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		80CADCDB08AC3FC700FFC6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../CDA/build/Debug",
+					"$(SRCROOT)/../ENQ/build/Debug",
+					"$(SRCROOT)/../SRT/build/Debug",
+					"$(SRCROOT)/../STK/build/Debug",
+					"$(SRCROOT)/../PRQ/build/Debug",
+					"$(SRCROOT)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug\"",
+				);
+				LIBRARY_STYLE = STATIC;
+				PRODUCT_NAME = HASH;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		80CADCDC08AC3FC700FFC6FE /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../CDA/build/Debug",
+					"$(SRCROOT)/../ENQ/build/Debug",
+					"$(SRCROOT)/../SRT/build/Debug",
+					"$(SRCROOT)/../STK/build/Debug",
+					"$(SRCROOT)/../PRQ/build/Debug",
+					"$(SRCROOT)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug\"",
+				);
+				LIBRARY_STYLE = STATIC;
+				PRODUCT_NAME = HASH;
+			};
+			name = Default;
+		};
+		80CADCDE08AC3FC700FFC6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wpointer-arith",
+				);
+			};
+			name = Debug;
+		};
+		80CADCDF08AC3FC700FFC6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wpointer-arith",
+				);
+			};
+			name = Release;
+		};
+		80CADCE008AC3FC700FFC6FE /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wpointer-arith",
+				);
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80CADCD908AC3FC700FFC6FE /* Build configuration list for PBXNativeTarget "HASH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CADCDA08AC3FC700FFC6FE /* Debug */,
+				80CADCDB08AC3FC700FFC6FE /* Release */,
+				80CADCDC08AC3FC700FFC6FE /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		80CADCDD08AC3FC700FFC6FE /* Build configuration list for PBXProject "HASH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CADCDE08AC3FC700FFC6FE /* Debug */,
+				80CADCDF08AC3FC700FFC6FE /* Release */,
+				80CADCE008AC3FC700FFC6FE /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

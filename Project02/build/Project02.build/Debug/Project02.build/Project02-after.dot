@@ -1,0 +1,52 @@
+digraph Project02 {
+   size = "10.000000,8.500000";
+   concentrate = false;
+
+   node [ shape = box, style = filled, color = "0.3 0.5 0.6", fillcolor = "0.3 0.2 0.9", fontname = "Monaco", fontsize = "9" ];
+   n00001 [ label = "Debug/Project02\n4ce94cd6844ca0debc22affb07f74582\nUpToDate", peripheries = 3 ];
+   n00002 [ label = "ppc/main.o\na6fb39ba1726e6d3aa5c594ca97970fb\nUpToDate" ];
+   n00003 [ label = "Project02/main.c\n0000000042d05b1c0000000000003f2b\nUpToDate" ];
+   n00004 [ label = "ppc/main.ob\nb4247de3da8f4abde8590ed79621e035\nUpToDate", peripheries = 3 ];
+   n00005 [ label = "Resources/libZeroLinkAppStub.a\n0000000042a5232c0000000000000ae0\nUpToDate" ];
+   n00006 [ label = "ppc/libCDA.ab\na7dc7ccccb9ed5ff48e77022238f7919\nUpToDate", peripheries = 3 ];
+   n00007 [ label = "Debug/libCDA.a\n0000000042c709ea0000000000000b30\nUpToDate" ];
+   n00008 [ label = "ppc/libTESTRIG.ab\ne0dc347fc3d5bf94c8cf6c8f6d113531\nUpToDate", peripheries = 3 ];
+   n00009 [ label = "Debug/libTESTRIG.a\n0000000042d0474700000000000014f0\nUpToDate" ];
+   n00010 [ label = "ppc/libENQ.ab\n7169476ab12e998794b51d76692b5e52\nUpToDate", peripheries = 3 ];
+   n00011 [ label = "Debug/libENQ.a\n0000000042d15c380000000000006290\nUpToDate" ];
+   n00012 [ label = "ppc/Project02.zerolink\n0000000042c729440000000000000200\nUpToDate" ];
+   n00013 [ label = "<postprocessing_dependency_collector>\nffffffffffffffffffffffffffffffff\nUnknown", color = "0.0 0.0 0.5", fillcolor = "0.0 0.0 0.9", style = "filled,dashed" ];
+   n00014 [ label = "<postprocessing_permissions_dependency_collector>\nffffffffffffffffffffffffffffffff\nUnknown", color = "0.0 0.0 0.5", fillcolor = "0.0 0.0 0.9", style = "filled,dashed" ];
+   n00015 [ label = "include/limits.h\n0000000042a523450000000000000d8e\nUpToDate" ];
+   n00016 [ label = "CDA/cda.h\n0000000042c709660000000000000ae9\nUpToDate" ];
+   n00017 [ label = "ENQ/enq.h\n0000000042d050d2000000000000121c\nUpToDate" ];
+   n00018 [ label = "TESTRIG/testrig.h\n0000000042c70a230000000000000901\nUpToDate" ];
+   n00019 [ label = "include/syslimits.h\n0000000042a52345000000000000014a\nUpToDate" ];
+
+   node [ shape = box, style = "filled,bold", color = "0.7 0.5 0.7", fillcolor = "0.7 0.2 1.0", fontname = "Monaco", fontsize = "9" ];
+   c00001 [ label = "CompileC main.o <wt:2>\nwaitCount: 0\n0000000042c701ed00000000000028f2\n^ a6fb39ba55e1e73eaa5c594ca9795809\n= a6fb39ba1726e6d3aa5c594ca97970fb\nDoesNotNeedToRun\n(no 'why' info)" ];
+   c00002 [ label = "Bundlizing main.ob <wt:2>\nwaitCount: 0\na6fb39ba1726e6d3aa5c594ca97970fb\n^ 12df4459cda9ac6e4205579b3f5890ce\n= b4247de3da8f4abde8590ed79621e035\nDoesNotNeedToRun\n(no 'why' info)" ];
+   c00003 [ label = "Building ZeroLink <wt:2>\nwaitCount: 0\na6fb39ba1744ecbbaa5c594ca979781b\n^ ea12756c93084c65167ef6b7ae8e3d99\n= 4ce94cd6844ca0debc22affb07f74582\nDoesNotNeedToRun\n(no 'why' info)" ];
+   c00004 [ label = "Bundlizing libCDA.ab <wt:2>\nwaitCount: 0\n0000000042c709ea0000000000000b30\n^ a7dc7ccc8959dc1548e77022238f7229\n= a7dc7ccccb9ed5ff48e77022238f7919\nDoesNotNeedToRun\n(no 'why' info)" ];
+   c00005 [ label = "Bundlizing libTESTRIG.ab <wt:2>\nwaitCount: 0\n0000000042d0474700000000000014f0\n^ e0dc347f8105f8d3c8cf6c8f6d1121c1\n= e0dc347fc3d5bf94c8cf6c8f6d113531\nDoesNotNeedToRun\n(no 'why' info)" ];
+   c00006 [ label = "Bundlizing libENQ.ab <wt:2>\nwaitCount: 0\n0000000042d15c380000000000006290\n^ 7169476af3ffc5bf94b51d76692b3cc2\n= 7169476ab12e998794b51d76692b5e52\nDoesNotNeedToRun\n(no 'why' info)" ];
+
+   edge [ style = solid, color = black, arrowhead = none, arrowtail = normal ];
+   n00001 -> { c00003 };
+   n00002 -> { c00001 };
+   n00004 -> { c00002 };
+   n00006 -> { c00004 };
+   n00008 -> { c00005 };
+   n00010 -> { c00006 };
+   c00001 -> { n00003 };
+   c00002 -> { n00002 };
+   c00003 -> { n00002 n00005 n00012 };
+   c00004 -> { n00007 };
+   c00005 -> { n00009 };
+   c00006 -> { n00011 };
+
+   edge [ style = solid, color = gray60, arrowhead = none, arrowtail = normal ];
+   n00003 -> { n00015 n00016 n00017 n00018 };
+   n00015 -> { n00019 };
+   n00017 -> { n00016 };
+}

@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801158351710C3D600F5905D /* libCDA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 801158331710C3D600F5905D /* libCDA.a */; };
+		801158361710C3D600F5905D /* libSTK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 801158341710C3D600F5905D /* libSTK.a */; };
+		8077E5B00894054900963202 /* srt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8077E5AE0894054900963202 /* srt.h */; };
+		8077E5B10894054900963202 /* srt.c in Sources */ = {isa = PBXBuildFile; fileRef = 8077E5AF0894054900963202 /* srt.c */; };
+		8077E5B30894056400963202 /* srtp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8077E5B20894056400963202 /* srtp.h */; };
+		8077E64208940C4500963202 /* cda.h in Headers */ = {isa = PBXBuildFile; fileRef = 8077E64008940C4500963202 /* cda.h */; };
+		8077E9DC0895D17B00963202 /* stk.h in Headers */ = {isa = PBXBuildFile; fileRef = 8077E9DB0895D17B00963202 /* stk.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		801158331710C3D600F5905D /* libCDA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCDA.a; path = "../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug/libCDA.a"; sourceTree = "<group>"; };
+		801158341710C3D600F5905D /* libSTK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSTK.a; path = "../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug/libSTK.a"; sourceTree = "<group>"; };
+		8077E5AE0894054900963202 /* srt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srt.h; sourceTree = "<group>"; };
+		8077E5AF0894054900963202 /* srt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = srt.c; sourceTree = "<group>"; };
+		8077E5B20894056400963202 /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		8077E64008940C4500963202 /* cda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cda.h; path = ../CDA/cda.h; sourceTree = SOURCE_ROOT; };
+		8077E9DB0895D17B00963202 /* stk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stk.h; path = ../STK/stk.h; sourceTree = SOURCE_ROOT; };
+		D2AAC046055464E500DB518D /* libSRT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSRT.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801158351710C3D600F5905D /* libCDA.a in Frameworks */,
+				801158361710C3D600F5905D /* libSTK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* SRT */ = {
+			isa = PBXGroup;
+			children = (
+				801158331710C3D600F5905D /* libCDA.a */,
+				801158341710C3D600F5905D /* libSTK.a */,
+				8077E64008940C4500963202 /* cda.h */,
+				8077E9DB0895D17B00963202 /* stk.h */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = SRT;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8077E5AE0894054900963202 /* srt.h */,
+				8077E5AF0894054900963202 /* srt.c */,
+				8077E5B20894056400963202 /* srtp.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libSRT.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8077E5B00894054900963202 /* srt.h in Headers */,
+				8077E5B30894056400963202 /* srtp.h in Headers */,
+				8077E64208940C4500963202 /* cda.h in Headers */,
+				8077E9DC0895D17B00963202 /* stk.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* SRT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8077E599089403A300963202 /* Build configuration list for PBXNativeTarget "SRT" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRT;
+			productName = SRT;
+			productReference = D2AAC046055464E500DB518D /* libSRT.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 8077E59D089403A300963202 /* Build configuration list for PBXProject "SRT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* SRT */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* SRT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8077E5B10894054900963202 /* srt.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8077E59A089403A300963202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../CDA/build/Debug",
+					"$(SRCROOT)/../STK/build/Debug",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug\"",
+				);
+				LIBRARY_STYLE = STATIC;
+				PRODUCT_NAME = SRT;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		8077E59B089403A300963202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../CDA/build/Debug",
+					"$(SRCROOT)/../STK/build/Debug",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug\"",
+				);
+				LIBRARY_STYLE = STATIC;
+				PRODUCT_NAME = SRT;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		8077E59C089403A300963202 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../CDA/build/Debug",
+					"$(SRCROOT)/../STK/build/Debug",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug\"",
+				);
+				LIBRARY_STYLE = STATIC;
+				PRODUCT_NAME = SRT;
+			};
+			name = Default;
+		};
+		8077E59E089403A300963202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_ONE_BYTE_BOOL = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = (
+					"-Wpointer-arith",
+					"-Wall",
+				);
+			};
+			name = Debug;
+		};
+		8077E59F089403A300963202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_ONE_BYTE_BOOL = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = (
+					"-Wpointer-arith",
+					"-Wall",
+				);
+			};
+			name = Release;
+		};
+		8077E5A0089403A300963202 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_ONE_BYTE_BOOL = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = (
+					"-Wpointer-arith",
+					"-Wall",
+				);
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8077E599089403A300963202 /* Build configuration list for PBXNativeTarget "SRT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8077E59A089403A300963202 /* Debug */,
+				8077E59B089403A300963202 /* Release */,
+				8077E59C089403A300963202 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		8077E59D089403A300963202 /* Build configuration list for PBXProject "SRT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8077E59E089403A300963202 /* Debug */,
+				8077E59F089403A300963202 /* Release */,
+				8077E5A0089403A300963202 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Project01/Project01.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Project02/Project02.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Project03/Project03.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Project04/Project04.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CDA/CDA.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ENQ/ENQ.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PRQ/PRQ.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HASH/HASH.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SRT/SRT.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:STK/STK.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TESTRIG/TESTRIG.xcodeproj">
+   </FileRef>
+</Workspace>

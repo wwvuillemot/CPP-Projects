@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 804108A7089F0E8B00379D99 /* Project04 */;
+		activeTarget = 8DD76FA90486AB0100D96B5E /* Project04 */;
+		addToTargets = (
+			8DD76FA90486AB0100D96B5E /* Project04 */,
+		);
+		breakpoints = (
+			80CADA1308A9836000FFC6FE /* main.c:166 */,
+			80CADC0D08AC30B400FFC6FE /* prq.c:131 */,
+			80CADC1108AC30D700FFC6FE /* main.c:227 */,
+			80CADC5408AC347300FFC6FE /* main.c:257 */,
+			80CADCA308AC3E5400FFC6FE /* main.c:303 */,
+			80CADCBC08AC3EFE00FFC6FE /* main.c:116 */,
+		);
+		codeSenseManager = 804108BC089F0E9700379D99 /* Code sense */;
+		executables = (
+			804108A7089F0E8B00379D99 /* Project04 */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 238996790;
+			PBXWorkspaceStateSaveDate = 238996790;
+		};
+		sourceControlManager = 804108BB089F0E9700379D99 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {700, 4732}}";
+			sepNavSelRange = "{1215, 168}";
+			sepNavVisRect = "{{0, 1912}, {700, 394}}";
+			sepNavWindowFrame = "{{38, 76}, {685, 900}}";
+		};
+	};
+	804108A7089F0E8B00379D99 /* Project04 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Project04;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	804108BB089F0E9700379D99 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	804108BC089F0E9700379D99 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	804108BD089F0E9E00379D99 /* cda.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {556, 1358}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {556, 101}}";
+		};
+	};
+	804108C3089F0EB500379D99 /* enq.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {556, 2044}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {556, 101}}";
+		};
+	};
+	804108CB089F0ED600379D99 /* testrig.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {556, 1106}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {556, 101}}";
+		};
+	};
+	80CAD9FB08A9803E00FFC6FE /* prq.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {700, 4620}}";
+			sepNavSelRange = "{0, 111}";
+			sepNavVisRect = "{{0, 8}, {700, 394}}";
+		};
+	};
+	80CADA1308A9836000FFC6FE /* main.c:166 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.c */;
+		functionName = "test_create_prq03()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 166;
+		modificationTime = 145660643.505068;
+		state = 2;
+	};
+	80CADBDA08AAC9B500FFC6FE /* prq.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = prq.c;
+		path = /Users/wwv/Projects/Library/PRQ/prq.c;
+		sourceTree = "<absolute>";
+	};
+	80CADC0D08AC30B400FFC6FE /* prq.c:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 80CADBDA08AAC9B500FFC6FE /* prq.c */;
+		functionName = "PRQ_remove_item()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 131;
+		modificationTime = 145660703.520725;
+		state = 1;
+	};
+	80CADC1108AC30D700FFC6FE /* main.c:227 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.c */;
+		functionName = "test_remove_prq01()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 227;
+		modificationTime = 145660643.558618;
+		state = 2;
+	};
+	80CADC5408AC347300FFC6FE /* main.c:257 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.c */;
+		functionName = "test_destroy_prq01()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 257;
+		modificationTime = 145660649.890484;
+		state = 1;
+	};
+	80CADCA308AC3E5400FFC6FE /* main.c:303 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.c */;
+		functionName = "test_enq_prq01()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 303;
+		modificationTime = 145660667.919362;
+		state = 1;
+	};
+	80CADCBC08AC3EFE00FFC6FE /* main.c:116 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.c */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 116;
+		modificationTime = 145660643.558795;
+		state = 2;
+	};
+	8DD76FA90486AB0100D96B5E /* Project04 */ = {
+		activeExec = 0;
+		executables = (
+			804108A7089F0E8B00379D99 /* Project04 */,
+		);
+	};
+}

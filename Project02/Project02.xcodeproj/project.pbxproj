@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801158121710BD2900F5905D /* libCDA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 801158111710BD2900F5905D /* libCDA.a */; };
+		801158151710BD3000F5905D /* libENQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 801158131710BD3000F5905D /* libENQ.a */; };
+		801158161710BD3000F5905D /* libTESTRIG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 801158141710BD3000F5905D /* libTESTRIG.a */; };
+		80D069C908773FCF003061FF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 80D069C508773FCF003061FF /* main.c */; };
+		80D06A4008774536003061FF /* cda.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 80D06A3E08774536003061FF /* cda.h */; };
+		80D06A4108774536003061FF /* testrig.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 80D06A3F08774536003061FF /* testrig.h */; };
+		80D06A8A0877477D003061FF /* enq.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 80D06A890877477D003061FF /* enq.h */; };
+		8DD76FB00486AB0100D96B5E /* Project02.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* Project02.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* Project02.1 in CopyFiles */,
+				80D06A4008774536003061FF /* cda.h in CopyFiles */,
+				80D06A4108774536003061FF /* testrig.h in CopyFiles */,
+				80D06A8A0877477D003061FF /* enq.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		801158111710BD2900F5905D /* libCDA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCDA.a; path = "../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug/libCDA.a"; sourceTree = "<group>"; };
+		801158131710BD3000F5905D /* libENQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libENQ.a; path = "../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug/libENQ.a"; sourceTree = "<group>"; };
+		801158141710BD3000F5905D /* libTESTRIG.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTESTRIG.a; path = "../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug/libTESTRIG.a"; sourceTree = "<group>"; };
+		80D069C508773FCF003061FF /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		80D06A3E08774536003061FF /* cda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cda.h; path = ../CDA/cda.h; sourceTree = SOURCE_ROOT; };
+		80D06A3F08774536003061FF /* testrig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testrig.h; path = ../TESTRIG/testrig.h; sourceTree = SOURCE_ROOT; };
+		80D06A890877477D003061FF /* enq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = enq.h; path = ../ENQ/enq.h; sourceTree = SOURCE_ROOT; };
+		8DD76FB20486AB0100D96B5E /* Project02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project02; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A0FF2C0290799A04C91782 /* Project02.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Project02.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801158151710BD3000F5905D /* libENQ.a in Frameworks */,
+				801158161710BD3000F5905D /* libTESTRIG.a in Frameworks */,
+				801158121710BD2900F5905D /* libCDA.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Project02 */ = {
+			isa = PBXGroup;
+			children = (
+				801158131710BD3000F5905D /* libENQ.a */,
+				801158141710BD3000F5905D /* libTESTRIG.a */,
+				801158111710BD2900F5905D /* libCDA.a */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = Project02;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				80D06A890877477D003061FF /* enq.h */,
+				80D06A3E08774536003061FF /* cda.h */,
+				80D06A3F08774536003061FF /* testrig.h */,
+				80D069C508773FCF003061FF /* main.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* Project02 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* Project02.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* Project02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D069B508773FB0003061FF /* Build configuration list for PBXNativeTarget "Project02" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project02;
+			productInstallPath = "$(HOME)/bin";
+			productName = Project02;
+			productReference = 8DD76FB20486AB0100D96B5E /* Project02 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 80D069B908773FB0003061FF /* Build configuration list for PBXProject "Project02" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Project02 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* Project02 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D069C908773FCF003061FF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		80D069B608773FB0003061FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../Library/CDA/build/Debug",
+					"$(SRCROOT)/../../Library/TESTRIG/build/Debug",
+					"$(SRCROOT)/../../Library/ENQ/build/Debug",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug\"",
+				);
+				PRODUCT_NAME = Project02;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		80D069B708773FB0003061FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../Library/CDA/build/Debug",
+					"$(SRCROOT)/../../Library/TESTRIG/build/Debug",
+					"$(SRCROOT)/../../Library/ENQ/build/Debug",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug\"",
+				);
+				PRODUCT_NAME = Project02;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		80D069B808773FB0003061FF /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../Library/CDA/build/Debug",
+					"$(SRCROOT)/../../Library/TESTRIG/build/Debug",
+					"$(SRCROOT)/../../Library/ENQ/build/Debug",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/cpp_projects-ahuhbhgtegpsrqcimrdhxtjrcqig/Build/Products/Debug\"",
+				);
+				PRODUCT_NAME = Project02;
+			};
+			name = Default;
+		};
+		80D069BA08773FB0003061FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Debug;
+		};
+		80D069BB08773FB0003061FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Release;
+		};
+		80D069BC08773FB0003061FF /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D069B508773FB0003061FF /* Build configuration list for PBXNativeTarget "Project02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D069B608773FB0003061FF /* Debug */,
+				80D069B708773FB0003061FF /* Release */,
+				80D069B808773FB0003061FF /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		80D069B908773FB0003061FF /* Build configuration list for PBXProject "Project02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D069BA08773FB0003061FF /* Debug */,
+				80D069BB08773FB0003061FF /* Release */,
+				80D069BC08773FB0003061FF /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

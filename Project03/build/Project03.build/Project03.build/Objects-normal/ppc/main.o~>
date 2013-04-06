@@ -1,0 +1,462 @@
+/Users/wwv/Projects/CP706/Project03/main.c:30:17: error: cda.h: No such file or directory
+/Users/wwv/Projects/CP706/Project03/main.c:31:17: error: enq.h: No such file or directory
+/Users/wwv/Projects/CP706/Project03/main.c:32:21: error: testrig.h: No such file or directory
+/Users/wwv/Projects/CP706/Project03/main.c:44: error: parse error before 'ENQ_ITEM_t'
+/Users/wwv/Projects/CP706/Project03/main.c:44: warning: no semicolon at end of struct or union
+/Users/wwv/Projects/CP706/Project03/main.c:46: error: parse error before '}' token
+/Users/wwv/Projects/CP706/Project03/main.c:46: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:51: error: parse error before 'test_create_list01'
+/Users/wwv/Projects/CP706/Project03/main.c:51: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:52: error: parse error before 'test_create_list02'
+/Users/wwv/Projects/CP706/Project03/main.c:52: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:53: error: parse error before 'test_create_item'
+/Users/wwv/Projects/CP706/Project03/main.c:53: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:55: error: parse error before 'test_is_item_enqed01'
+/Users/wwv/Projects/CP706/Project03/main.c:55: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:56: error: parse error before 'test_is_item_enqed02'
+/Users/wwv/Projects/CP706/Project03/main.c:56: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:57: error: parse error before 'test_is_list_empty01'
+/Users/wwv/Projects/CP706/Project03/main.c:57: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:58: error: parse error before 'test_is_list_empty02'
+/Users/wwv/Projects/CP706/Project03/main.c:58: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:60: error: parse error before 'test_add_head'
+/Users/wwv/Projects/CP706/Project03/main.c:60: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:61: error: parse error before 'test_add_tail'
+/Users/wwv/Projects/CP706/Project03/main.c:61: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:62: error: parse error before 'test_add_after'
+/Users/wwv/Projects/CP706/Project03/main.c:62: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:63: error: parse error before 'test_add_before'
+/Users/wwv/Projects/CP706/Project03/main.c:63: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:65: error: parse error before 'test_deq_item'
+/Users/wwv/Projects/CP706/Project03/main.c:65: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:66: error: parse error before 'test_deq_head01'
+/Users/wwv/Projects/CP706/Project03/main.c:66: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:67: error: parse error before 'test_deq_head02'
+/Users/wwv/Projects/CP706/Project03/main.c:67: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:68: error: parse error before 'test_deq_tail01'
+/Users/wwv/Projects/CP706/Project03/main.c:68: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:69: error: parse error before 'test_deq_tail02'
+/Users/wwv/Projects/CP706/Project03/main.c:69: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:71: error: parse error before 'test_destroy_item'
+/Users/wwv/Projects/CP706/Project03/main.c:71: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:72: error: parse error before 'test_empty_list'
+/Users/wwv/Projects/CP706/Project03/main.c:72: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:73: error: parse error before 'test_destroy_list'
+/Users/wwv/Projects/CP706/Project03/main.c:73: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:75: error: parse error before 'test_get_head'
+/Users/wwv/Projects/CP706/Project03/main.c:75: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:76: error: parse error before 'test_get_tail'
+/Users/wwv/Projects/CP706/Project03/main.c:76: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:77: error: parse error before 'test_get_next'
+/Users/wwv/Projects/CP706/Project03/main.c:77: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:78: error: parse error before 'test_get_prev'
+/Users/wwv/Projects/CP706/Project03/main.c:78: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:79: error: parse error before 'test_get_item_name'
+/Users/wwv/Projects/CP706/Project03/main.c:79: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c:80: error: parse error before 'test_get_list_name'
+/Users/wwv/Projects/CP706/Project03/main.c:80: warning: data definition has no type or storage class
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'main':
+/Users/wwv/Projects/CP706/Project03/main.c:88: error: 'TEST_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:88: error: (Each undeclared identifier is reported only once
+/Users/wwv/Projects/CP706/Project03/main.c:88: error: for each function it appears in.)
+/Users/wwv/Projects/CP706/Project03/main.c:88: error: parse error before 'testrig_ENQ'
+/Users/wwv/Projects/CP706/Project03/main.c:91: error: 'TEST_PROC_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:125: error: 'testrig_ENQ' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:130: error: 'testproc_ENQ' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:130: error: 'proc_create_list01' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:131: error: 'proc_create_list02' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:132: error: 'proc_create_item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:134: error: 'proc_is_item_enqed01' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:135: error: 'proc_is_item_enqed02' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:136: error: 'proc_is_list_empty01' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:137: error: 'proc_is_list_empty02' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:139: error: 'proc_add_head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:140: error: 'proc_add_tail' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:141: error: 'proc_add_after' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:142: error: 'proc_add_before' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:144: error: 'proc_deq_item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:145: error: 'proc_deq_head01' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:146: error: 'proc_deq_head02' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:147: error: 'proc_deq_tail01' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:148: error: 'proc_deq_tail02' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:150: error: 'proc_destroy_item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:151: error: 'proc_empty_list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:152: error: 'proc_destroy_list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:154: error: 'proc_get_head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:155: error: 'proc_get_tail' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:156: error: 'proc_get_next' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:157: error: 'proc_get_prev' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:158: error: 'proc_get_item_name' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:159: error: 'proc_get_list_name' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:181: error: parse error before 'test_create_list01'
+/Users/wwv/Projects/CP706/Project03/main.c:182: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:182: error: 'test_create_list01' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:51: error: previous declaration of 'test_create_list01' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_create_list01':
+/Users/wwv/Projects/CP706/Project03/main.c:183: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:183: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:184: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:186: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:187: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:189: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:189: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:198: error: parse error before 'test_create_list02'
+/Users/wwv/Projects/CP706/Project03/main.c:199: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:199: error: 'test_create_list02' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:52: error: previous declaration of 'test_create_list02' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_create_list02':
+/Users/wwv/Projects/CP706/Project03/main.c:200: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:200: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:201: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:203: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:203: error: called object 'test_get_list_name' is not a function
+/Users/wwv/Projects/CP706/Project03/main.c:205: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:212: error: parse error before 'test_create_item'
+/Users/wwv/Projects/CP706/Project03/main.c:213: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:213: error: 'test_create_item' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:53: error: previous declaration of 'test_create_item' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_create_item':
+/Users/wwv/Projects/CP706/Project03/main.c:214: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:214: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:215: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:217: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:218: error: 'item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:220: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:220: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:229: error: parse error before 'test_is_item_enqed01'
+/Users/wwv/Projects/CP706/Project03/main.c:230: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:230: error: 'test_is_item_enqed01' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:55: error: previous declaration of 'test_is_item_enqed01' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_is_item_enqed01':
+/Users/wwv/Projects/CP706/Project03/main.c:231: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:231: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:232: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:234: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:235: error: parse error before 'ENQ_is_item_enqed'
+/Users/wwv/Projects/CP706/Project03/main.c:236: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:236: error: parse error before ')' token
+/Users/wwv/Projects/CP706/Project03/main.c:238: error: 'item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:245: error: parse error before 'test_is_item_enqed02'
+/Users/wwv/Projects/CP706/Project03/main.c:246: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:246: error: 'test_is_item_enqed02' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:56: error: previous declaration of 'test_is_item_enqed02' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_is_item_enqed02':
+/Users/wwv/Projects/CP706/Project03/main.c:247: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:247: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:248: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:249: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:251: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:251: error: 'item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:253: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:254: error: parse error before 'ENQ_is_item_enqed'
+/Users/wwv/Projects/CP706/Project03/main.c:255: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:255: error: parse error before ')' token
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:264: error: parse error before 'test_is_list_empty01'
+/Users/wwv/Projects/CP706/Project03/main.c:265: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:265: error: 'test_is_list_empty01' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:57: error: previous declaration of 'test_is_list_empty01' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_is_list_empty01':
+/Users/wwv/Projects/CP706/Project03/main.c:266: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:266: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:267: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:269: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:270: error: parse error before 'ENQ_is_list_empty'
+/Users/wwv/Projects/CP706/Project03/main.c:271: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:271: error: parse error before ')' token
+/Users/wwv/Projects/CP706/Project03/main.c:273: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:280: error: parse error before 'test_is_list_empty02'
+/Users/wwv/Projects/CP706/Project03/main.c:281: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:281: error: 'test_is_list_empty02' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:58: error: previous declaration of 'test_is_list_empty02' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_is_list_empty02':
+/Users/wwv/Projects/CP706/Project03/main.c:282: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:282: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:283: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:284: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:286: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:286: error: 'item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:288: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:289: error: parse error before 'ENQ_is_list_empty'
+/Users/wwv/Projects/CP706/Project03/main.c:290: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:290: error: parse error before ')' token
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:299: error: parse error before 'test_add_head'
+/Users/wwv/Projects/CP706/Project03/main.c:300: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:300: error: 'test_add_head' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:60: error: previous declaration of 'test_add_head' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_add_head':
+/Users/wwv/Projects/CP706/Project03/main.c:301: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:301: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:302: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:303: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:305: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:306: error: 'item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:306: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:307: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:307: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:316: error: parse error before 'test_add_tail'
+/Users/wwv/Projects/CP706/Project03/main.c:317: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:317: error: 'test_add_tail' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:61: error: previous declaration of 'test_add_tail' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_add_tail':
+/Users/wwv/Projects/CP706/Project03/main.c:318: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:318: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:319: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:320: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:322: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:323: error: 'item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:323: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:324: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:324: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:333: error: parse error before 'test_add_after'
+/Users/wwv/Projects/CP706/Project03/main.c:334: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:334: error: 'test_add_after' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:62: error: previous declaration of 'test_add_after' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_add_after':
+/Users/wwv/Projects/CP706/Project03/main.c:335: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:335: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:336: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:337: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:340: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:340: error: 'head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:341: error: 'after' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:343: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:346: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:346: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:355: error: parse error before 'test_add_before'
+/Users/wwv/Projects/CP706/Project03/main.c:356: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:356: error: 'test_add_before' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:63: error: previous declaration of 'test_add_before' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_add_before':
+/Users/wwv/Projects/CP706/Project03/main.c:357: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:357: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:358: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:359: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:362: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:362: error: 'head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:363: error: 'before' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:365: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:369: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:369: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:378: error: parse error before 'test_deq_item'
+/Users/wwv/Projects/CP706/Project03/main.c:379: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:379: error: 'test_deq_item' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:65: error: previous declaration of 'test_deq_item' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_deq_item':
+/Users/wwv/Projects/CP706/Project03/main.c:380: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:380: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:381: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:382: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:384: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:384: error: 'head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:386: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:387: error: parse error before 'ENQ_deq_item'
+/Users/wwv/Projects/CP706/Project03/main.c:390: error: parse error before ')' token
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:399: error: parse error before 'test_deq_head01'
+/Users/wwv/Projects/CP706/Project03/main.c:400: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:400: error: 'test_deq_head01' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:66: error: previous declaration of 'test_deq_head01' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_deq_head01':
+/Users/wwv/Projects/CP706/Project03/main.c:401: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:401: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:402: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:403: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:405: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:405: error: 'head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:407: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:409: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:409: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:418: error: parse error before 'test_deq_head02'
+/Users/wwv/Projects/CP706/Project03/main.c:419: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:419: error: 'test_deq_head02' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:67: error: previous declaration of 'test_deq_head02' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_deq_head02':
+/Users/wwv/Projects/CP706/Project03/main.c:420: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:420: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:421: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:422: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:424: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:425: error: 'head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:425: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:427: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:427: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:436: error: parse error before 'test_deq_tail01'
+/Users/wwv/Projects/CP706/Project03/main.c:437: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:437: error: 'test_deq_tail01' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:68: error: previous declaration of 'test_deq_tail01' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_deq_tail01':
+/Users/wwv/Projects/CP706/Project03/main.c:438: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:438: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:439: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:440: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:442: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:442: error: 'tail' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:444: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:446: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:446: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:455: error: parse error before 'test_deq_tail02'
+/Users/wwv/Projects/CP706/Project03/main.c:456: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:456: error: 'test_deq_tail02' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:69: error: previous declaration of 'test_deq_tail02' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_deq_tail02':
+/Users/wwv/Projects/CP706/Project03/main.c:457: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:457: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:458: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:459: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:461: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:462: error: 'tail' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:462: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:463: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:463: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:472: error: parse error before 'test_destroy_item'
+/Users/wwv/Projects/CP706/Project03/main.c:473: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:473: error: 'test_destroy_item' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:71: error: previous declaration of 'test_destroy_item' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_destroy_item':
+/Users/wwv/Projects/CP706/Project03/main.c:474: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:474: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:475: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:476: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:478: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:478: error: 'head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:481: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:484: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:484: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:493: error: parse error before 'test_empty_list'
+/Users/wwv/Projects/CP706/Project03/main.c:494: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:494: error: 'test_empty_list' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:72: error: previous declaration of 'test_empty_list' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_empty_list':
+/Users/wwv/Projects/CP706/Project03/main.c:495: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:495: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:496: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:497: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:500: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:500: error: 'head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:501: error: 'item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:505: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:507: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:507: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:516: error: parse error before 'test_destroy_list'
+/Users/wwv/Projects/CP706/Project03/main.c:517: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:517: error: 'test_destroy_list' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:73: error: previous declaration of 'test_destroy_list' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_destroy_list':
+/Users/wwv/Projects/CP706/Project03/main.c:518: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:518: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:519: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:520: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:523: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:523: error: 'head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:524: error: 'item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:528: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:530: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:530: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:538: error: parse error before 'test_get_head'
+/Users/wwv/Projects/CP706/Project03/main.c:539: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:539: error: 'test_get_head' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:75: error: previous declaration of 'test_get_head' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_get_head':
+/Users/wwv/Projects/CP706/Project03/main.c:540: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:540: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:541: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:542: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:545: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:545: error: 'head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:546: error: 'item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:548: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:550: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:550: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:560: error: parse error before 'test_get_tail'
+/Users/wwv/Projects/CP706/Project03/main.c:561: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:561: error: 'test_get_tail' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:76: error: previous declaration of 'test_get_tail' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_get_tail':
+/Users/wwv/Projects/CP706/Project03/main.c:562: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:562: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:563: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:564: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:567: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:567: error: 'head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:568: error: 'item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:570: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:572: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:572: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:582: error: parse error before 'test_get_next'
+/Users/wwv/Projects/CP706/Project03/main.c:583: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:583: error: 'test_get_next' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:77: error: previous declaration of 'test_get_next' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_get_next':
+/Users/wwv/Projects/CP706/Project03/main.c:584: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:584: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:585: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:586: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:589: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:589: error: 'head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:590: error: 'item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:592: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:595: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:595: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:605: error: parse error before 'test_get_prev'
+/Users/wwv/Projects/CP706/Project03/main.c:606: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:606: error: 'test_get_prev' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:78: error: previous declaration of 'test_get_prev' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_get_prev':
+/Users/wwv/Projects/CP706/Project03/main.c:607: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:607: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:608: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:609: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:612: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:612: error: 'head' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:613: error: 'item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:615: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:618: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:618: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:628: error: parse error before 'test_get_item_name'
+/Users/wwv/Projects/CP706/Project03/main.c:629: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:629: error: 'test_get_item_name' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:79: error: previous declaration of 'test_get_item_name' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_get_item_name':
+/Users/wwv/Projects/CP706/Project03/main.c:630: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:630: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:631: error: 'ENQ_ITEM_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:633: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:634: error: 'item' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:635: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:635: error: 'CDA_FALSE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c: At top level:
+/Users/wwv/Projects/CP706/Project03/main.c:645: error: parse error before 'test_get_list_name'
+/Users/wwv/Projects/CP706/Project03/main.c:646: warning: return type defaults to 'int'
+/Users/wwv/Projects/CP706/Project03/main.c:646: error: 'test_get_list_name' redeclared as different kind of symbol
+/Users/wwv/Projects/CP706/Project03/main.c:80: error: previous declaration of 'test_get_list_name' was here
+/Users/wwv/Projects/CP706/Project03/main.c: In function 'test_get_list_name':
+/Users/wwv/Projects/CP706/Project03/main.c:647: error: 'TEST_RESULT_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:647: error: parse error before 'rcode'
+/Users/wwv/Projects/CP706/Project03/main.c:648: error: 'ENQ_ANCHOR_p_t' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:650: error: 'rcode' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:651: error: 'list' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:652: error: 'CDA_TRUE' undeclared (first use in this function)
+/Users/wwv/Projects/CP706/Project03/main.c:652: error: 'CDA_FALSE' undeclared (first use in this function)
